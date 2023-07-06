@@ -1,4 +1,4 @@
-export const names = ["Ali", "Hadi", "Usman", "Omar"]
+const names = ["Ali", "Hadi", "Usman", "Omar"]
 
 function printNames(names: string[]) {
     names.map(name => {
@@ -7,3 +7,5 @@ function printNames(names: string[]) {
 }
 
 printNames(names)
+
+export default names;
