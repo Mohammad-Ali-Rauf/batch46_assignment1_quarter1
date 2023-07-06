@@ -2,7 +2,7 @@
 exports.__esModule = true;
 var names = ["Ali", "Hadi", "Usman", "Omar"];
 function printNames(names) {
-    names.map(function (name) {
+    names.forEach(function (name) {
         console.log("\n", name, "\n");
     });
 }

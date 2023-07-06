@@ -1,9 +1,9 @@
-import names from "../exercise11/exercise11.js";
+const friendNames = ["Ali", "Hadi", "Usman", "Omar"];
 
-function greetFriends(names: string[]) {
-    names.forEach(name => {
+function greetFriends() {
+    friendNames.forEach(name => {
         console.log(`Greetings, My Friend ${name}`);
     });
 }
 
-greetFriends(names);
+greetFriends();
