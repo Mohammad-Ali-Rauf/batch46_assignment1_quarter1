@@ -1,3 +1,5 @@
+// This program is printing the person name with different name cases
+
 let personName2 = "Ali"
 
 function toTitleCase(str: string): string {
