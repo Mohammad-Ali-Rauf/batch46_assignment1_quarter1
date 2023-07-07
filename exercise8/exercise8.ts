@@ -3,7 +3,7 @@ function printHorizontalLine(length: number): void {
   console.log(line);
 }
 
-const lineLength = 40;
+const lineLength = 40
 
 printHorizontalLine(lineLength)
 
