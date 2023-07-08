@@ -1,11 +1,15 @@
-const guestList = [
-    "Atif",
-    "Bilal",
-    "Khair"
-]
+export const guestList: string[] = ['Atif', 'Bilal', 'Khair'];
 
-function printInvitation() {
-    guestList.forEach(guest => console.log(`Hi ${guest}, You are invited to dinner today.`))
+let isPrintInvitationEnabled = false;
+
+export function enablePrintInvitation(): void {
+  isPrintInvitationEnabled = true;
 }
 
-printInvitation()
+export function printInvitation(): void {
+  if (isPrintInvitationEnabled) {
+    guestList.forEach((guest) =>
+      console.log(`Hi ${guest}, You are invited to dinner today.`)
+    );
+  }
+}
